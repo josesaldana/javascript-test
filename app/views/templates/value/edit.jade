@@ -1,0 +1,4 @@
+select#value
+  option(name="-1") Please select
+  - each v in values
+    option(name="#{v.attributes.id}")= v.attributes.value
